@@ -1,0 +1,33 @@
+.boxes {
+    
+    display: table;   /* Allow the centering to work */
+    margin: 0 auto;
+    padding: 10px;
+    border-style: solid;
+    border-color: blue;
+   
+}
+.orange {
+    background-color: orange;    
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+	
+    }
+    
+li {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background-color: blue;
+    margin: 10px;
+    
+}
+
+ul#purple li{
+    background-color: purple;
+}
