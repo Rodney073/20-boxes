@@ -28,6 +28,14 @@ li {
     
 }
 
+li:hover {
+    background-color: rgb(62, 255, 23);
+}
+
 ul#purple li{
     background-color: purple;
+}
+
+ul#purple li:hover {
+    background-color: yellow;
 }
